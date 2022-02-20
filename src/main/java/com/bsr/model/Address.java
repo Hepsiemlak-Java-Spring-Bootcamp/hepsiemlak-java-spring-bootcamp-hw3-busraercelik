@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Address {
 
-	private String province;
+	private String city;
 	private String district;
-	private String addresDesc;
+	private String addressDesc;
 
 }

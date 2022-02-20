@@ -11,7 +11,7 @@ public class BannerRequest {
 	
 	private int advertNo;
 	private String phone;
-	private int total;
+	private int duration;
 	private AddressRequest address;
 
 }

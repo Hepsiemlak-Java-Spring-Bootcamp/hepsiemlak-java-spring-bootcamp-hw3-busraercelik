@@ -36,7 +36,7 @@ public class BannerClient {
 		BannerRequest request = new BannerRequest();
 		request.setAdvertNo(adNo++);
 		request.setPhone("12345");
-		request.setTotal(1);
+		request.setDuration(1);
 		request.setAddress(new AddressRequest("istanbul", "Kadikoy", "home address"));
 
 		return request;

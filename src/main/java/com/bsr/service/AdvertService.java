@@ -1,11 +1,10 @@
 package com.bsr.service;
 
+import com.bsr.client.BannerClient;
 import com.bsr.client.request.AddressRequest;
 import com.bsr.client.request.AdvertRequest;
 import com.bsr.client.request.BannerRequest;
-import com.bsr.client.response.BannerResponse;
 import com.bsr.config.factory.PropertyFactory;
-import com.bsr.client.BannerClient;
 import com.bsr.dto.PropertyType;
 import com.bsr.dto.response.AdvertResponseDTO;
 import com.bsr.model.Advert;
@@ -13,7 +12,6 @@ import com.bsr.model.Person;
 import com.bsr.queue.QueueService;
 import com.bsr.repository.AdvertRepository;
 import com.bsr.repository.DbConnectionRepository;
-import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -74,7 +72,7 @@ public class AdvertService {
 		BannerRequest request = new BannerRequest();
 		request.setAdvertNo(adNo++);
 		request.setPhone("12345");
-		request.setTotal(1);
+		request.setDuration(1);
 		request.setAddress(new AddressRequest("istanbul", "Kadikoy", "home address"));
 
 		return request;
