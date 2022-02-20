@@ -21,3 +21,21 @@ dışında kullanılmamalıdır.
 
 Cem DIRMAN
 ---
+### Servisler arası haberleşme
+
+![](src/main/resources/images/advert.png)
+
+Feign client ile emlak-banner'a istek atarak banner oluşturdum.
+
+![](src/main/resources/images/banners.png)
+
+### Person API'leri
+![](src/main/resources/images/get-persons.png)
+
+![](src/main/resources/images/create-person.png)
+
+### Message API'leri
+![](src/main/resources/images/get-messages.png)
+
+### Advert API'leri
+![](src/main/resources/images/favourites.png)
