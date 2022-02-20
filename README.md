@@ -21,6 +21,15 @@ dışında kullanılmamalıdır.
 
 Cem DIRMAN
 ---
+### Docker image çalıştırma
+
+    docker build -t activemq-img .
+    docker run -it -p 8161:8161 activemq-img
+
+### ActiveMQ ekranı
+
+    http://localhost:8161
+
 ### Servisler arası haberleşme
 
 ![](src/main/resources/images/advert.png)
